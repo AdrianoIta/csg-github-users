@@ -1,0 +1,11 @@
+.card-container {
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  align-items: center;
+  justify-content: center;
+}
+
+mat-form-field {
+  width: 100%;
+}

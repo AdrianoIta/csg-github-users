@@ -31,6 +31,7 @@ export class AppComponent implements OnInit {
     if (user_name !== '') {
       this.http.get(`http://127.0.0.1:5000/get-user/${user_name}`).subscribe({
         next: (data) => {
+          this.dataSource = [];
           this.dataSource = data;
         },
         error: (err) => {
